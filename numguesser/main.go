@@ -54,10 +54,7 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		fmt.Println(input)
 		input = strings.TrimSpace(input)
-		fmt.Println(input == "y")
-
 		if strings.ToLower(input) != "y" {
 			fmt.Println("Bye!")
 			playing = false
